@@ -1,0 +1,12 @@
+{
+  "name": "mycontacts",
+  "version": "1.0.0",
+  "description": "API to store contacts",
+  "main": "src/index.js",
+  "repository": "https://github.com/leomiranda1995/jstack-nodejs-com-express.git",
+  "author": "Leonardo da Silva Miranda <leonardo.miranda@linx.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
