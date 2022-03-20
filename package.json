@@ -6,6 +6,9 @@
   "repository": "https://github.com/leomiranda1995/jstack-nodejs-com-express.git",
   "author": "Leonardo da Silva Miranda <leonardo.miranda@linx.com.br>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
   "dependencies": {
     "express": "^4.17.3"
   },
