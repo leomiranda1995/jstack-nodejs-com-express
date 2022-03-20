@@ -6,10 +6,10 @@ const router = Router();
 
 router.get(
   '/contacts',
-  (request, response, next) => {
-    request.middleware2 = 2;
-    next();
-  },
+  // (request, response, next) => {
+  //   request.middleware2 = 2;
+  //   next();
+  // },
   ContactController.index,
 );
 router.get('/contacts/:id', ContactController.show);
